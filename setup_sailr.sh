@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e # exit on error
 curl -O .git/sailr.sh \
 	https://raw.githubusercontent.com/craicoverflow/sailr/master/sailr.sh
 chmod +x .git/sailr.sh
