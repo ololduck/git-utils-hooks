@@ -8,5 +8,5 @@ if [ -f sailr.json]; then
 fi
 git stash
 git add sailr.json
-git commit -m "Added enforcing of conventional commit spec"
+git commit -m "build: Added enforcing of conventional commit spec"
 git stash pop
