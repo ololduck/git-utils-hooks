@@ -1,0 +1,6 @@
+hooks:
+  - name: conventional commit
+  	action: .git/sailr.sh
+    setup_script: setup_sailr.sh
+    on_event:
+      - commit-msg
