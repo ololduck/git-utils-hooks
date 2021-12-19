@@ -1,6 +1,6 @@
 #!/bin/bash
 curl -O .git/sailr.sh \
-	https://github.com/craicoverflow/sailr/raw/master/sailr.sh
+	https://raw.githubusercontent.com/craicoverflow/sailr/master/sailr.sh
 chmod +x .git/sailr.sh
 if [ -f sailr.json]; then
 	curl -O sailr.sh \
